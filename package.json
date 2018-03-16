@@ -1,0 +1,20 @@
+{
+  "name": "require-noop-register",
+  "version": "1.0.0",
+  "description": "transform required files with given extensions in noops",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'No tests' && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MashupMill/require-noop-register.git"
+  },
+  "keywords": [],
+  "author": "Branden Cash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MashupMill/require-noop-register/issues"
+  },
+  "homepage": "https://github.com/MashupMill/require-noop-register#readme"
+}

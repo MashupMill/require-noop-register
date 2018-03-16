@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+- '6'
+before_install:
+- npm i -g npm@latest
+install:
+- yarn install
+script:
+- yarn test
+cache: yarn
+deploy:
+  provider: npm
+  email: ammmze@gmail.com
+  api_key:
+    secure: eOUycRSAkrV//VXn8h6eKxMFlzmypBgD6U83rslqXqke/8RBwIobFkkyykVTp7BOwAh7kq0+xYm/iPzKD80r8b71ED1XukN9hLHTToXE13hK0AHmCLEHahzgYThoLeaUK+11SrwOY5XLQu62nZK6gTu/3dxjhHPkw7En1MnCA7UdJwA/9D49sT1LepIRpcjyesHxVtDXAmFjcraQHLWs7f5nhpGloAQN6XRLO5X/UxohcDryyWprewgfcAqTfmoTzujfruB/k0deHMFsI6UKnhnJWWf8SJuUz6gUxYrDLWssxWqTiTXwCe2SYnblRpDk7AFvbqp6b7dMMPw4LQgOOwXeknUQVrBFadxKMuLNzzjloX4mfacio4NK5eJ+3ik4/dEbEGaaNOpxZY+JUwyxX3l2VdGqVPYsXYIKaylWYgGXiGSPw+ZW4l4YDKlq6x3c8FcEzS8GaZgU/pDMs6WK+TX4tFaak6kciqKeoQDuNIwD8R5A+MeK9l6mgWSrCbFROpQ5Y5I+tZX6laJnX+0KQmHAQi3kPHEGH/XardrNnWILc4+D8H1eRemitfo7vEaAk8IY3YvCfFnptJCI8GFeRhNeuUso/TkSbguGoO43UlleBUrV2F63juParNulBywMbsp4gkE6WspxGK+Z6DgasjRGMJDK+7Si3Qrh0fXkodQ=
+  on:
+    tags: true
+    repo: MashupMill/require-noop-register
